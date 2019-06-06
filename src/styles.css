@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.list {
+  list-style-type: disc;
+}
+
+.list__item {
+  min-width: 200px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.item__label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.item__input,
+.item__label {
+  width: 200px;
+  min-width: 200px;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.list.list--sublist {
+  padding-top: 5px;
+  padding-left: 20px;
+  list-style-type: circle;
+}
+
+.item__row {
+  display: flex;
+  align-items: center;
+}
